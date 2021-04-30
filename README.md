@@ -53,7 +53,4 @@ Six different machine learning algorithms across four different categories were 
 
 ## Summary
 
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Out of all the models, the best performer was the Easy Ensemble Classifer followed by the Balanced Random Forest Classifier. Both of these belong to the Ensemble category of classifiers. Personally I would use the Easy Ensemble classifier as it was able to raise it's high risk Precision score (0.09) further than any other model while also achieving a Recall score of over 90% for both low and high risk. Though more iteration and training with different datasets could improve the model's accuracy even further.
