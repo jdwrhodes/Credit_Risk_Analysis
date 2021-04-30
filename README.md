@@ -1,7 +1,7 @@
 # ML
 
 ## Overview
-The purpose of this project was to analyize the predictive capability of different machine learning algorithms regarding credit risk.
+The purpose of this project was to analyze the predictive capability of different machine learning algorithms regarding credit risk.
 
 ## Results
 Six different machine learning algorithms across four different categories were analyzed with the results below.
