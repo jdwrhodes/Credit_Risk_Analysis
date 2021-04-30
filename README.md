@@ -23,33 +23,33 @@ Six different machine learning algorithms across four different categories were 
 ![SMOTE](https://raw.githubusercontent.com/jdwrhodes/Credit_Risk_Analysis/main/Module-17-Challenge/resources/smote_report.png 'SMOTE')
 
 ### Undersampling
-- Cluster Centroids: 
-  - Accuracy score
-  - Precision
-  - Recall
+- Cluster Centroids (CC): 
+  - Accuracy score was 0.544, 54.4%, lower than NRO and SMOTE.
+  - Precision was the same again at 0.01, 1%, for high risk and 1.00, 100%, for low risk.
+  - Recall for high risk landed between NRO and SMOTE at 0.69, 69%, but low risk was the lowest result so far at 0.40, 40%.
 
 ![Cluster Centroids Accuracy Score](https://raw.githubusercontent.com/jdwrhodes/Credit_Risk_Analysis/main/Module-17-Challenge/resources/cluster_centroid_acc_score.png 'Cluster Accuracy Score')
 ![Cluster Centroids](https://raw.githubusercontent.com/jdwrhodes/Credit_Risk_Analysis/main/Module-17-Challenge/resources/cluster_centroid_report.png 'Cluster Centroids')
 
 ### Over and Undersampling Combination
 - SMOTEENN: 
-  - Accuracy score
-  - Precision
-  - Recall
+  - Accuracy score was 0.662, 66.2%, which is the highest out of all the algorithms so far.
+  - Like the previous algorithms, the Precision score was the same at 0.01, 1%, for high risk. It was also 1.00, 100%, for low risk.
+  - The Recall score for high risk raised the bar to 0.78, 78%, whereas low risk is second from the bottom at 0.54, 54%.
 
 ![SMOTEENN Accuracy Score](https://raw.githubusercontent.com/jdwrhodes/Credit_Risk_Analysis/main/Module-17-Challenge/resources/smoteenn_acc_score.png 'SMOTEENN Acurracy Score')
 ![SMOTEENN](https://raw.githubusercontent.com/jdwrhodes/Credit_Risk_Analysis/main/Module-17-Challenge/resources/smoteenn_report.png 'SMOTEENN')
 
 ### Ensemble
-- Balanced Random Forest Classifier: 
-  - Accuracy score
+- Balanced Random Forest Classifier (BRF): 
+  - Accuracy score of 
   - Precision
   - Recall
 
 ![Balanced Random Forest Classifier Accuracy Score](https://raw.githubusercontent.com/jdwrhodes/Credit_Risk_Analysis/main/Module-17-Challenge/resources/balanced_rf_acc_score.png 'Balanced Random Forest Classifier Accuracy Score')
 ![Balanced Random Forest Classifier](https://raw.githubusercontent.com/jdwrhodes/Credit_Risk_Analysis/main/Module-17-Challenge/resources/balanced_rf_report.png 'Balanced Random Forest Classifier')
 
-- Easy Ensemble Classifier: 
+- Easy Ensemble Classifier (EE): 
   - Accuracy score
   - Precision
   - Recall
